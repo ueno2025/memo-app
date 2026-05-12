@@ -2,3 +2,33 @@
 body {
     font-family: "Inter", "Noto Sans JP", sans-serif;
 }
+
+.header {
+    padding: 12px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 2px solid #5840CC;
+}
+
+.header img {
+    width: 40px;
+}
+
+.title-area {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-area h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.title-area p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
